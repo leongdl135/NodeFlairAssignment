@@ -55,6 +55,7 @@ const JobCard = ({ props }) => {
 			}}
 			_hover={{ bg: "#ebedf0" }}
 			padding='5'
+			onClick={ }
 		>
 			<HStack>
 				<Box flex={1}>
