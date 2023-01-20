@@ -1,0 +1,99 @@
+[
+  {
+      "company_name": "ByteDance",
+      "company_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBTpuTRSoLiNB-9cLjRjJCDEySpkhRqEnFPQ&usqp=CAU",
+      "rating": "4.1",
+      "job_title": "Product Manager (Infrastructure Platform)",
+      "job_type": "PM",
+      "department": "Infrastructure Engineering",
+      "location": "Singapore",
+      "salary": "S$8,922 - S$17,844 / mth",
+      "estimate": "EST",
+      "posted_time": "3 minutes ago"
+  },
+  {
+      "company_name": "Leica Microsystems",
+      "company_image": "https://dummyimage.com/100x100/000/fff",
+      "rating": "2.8",
+      "job_title": "Test Development Engineer",
+      "job_type": "QA",
+      "location": "Singapore",
+      "skills": "LabView,C++,C,C#,Python",
+      "posted_time": "5 minutes ago"
+  },
+  {
+      "company_name": "Zenith Education",
+      "company_image": "https://dummyimage.com/100x100/000/fff",
+      "job_title": "Software Engineer",
+      "job_type": "Fullstack",
+      "location": "Singapore",
+      "skills": "RDS,Amazon,S3,Docker,Strategy,Shell,Script,Analytics,CI,EC2,Shell,UNIX,Git,Node.js,NoSQL,DynamoDB,Kubernetes,React,PostgreSQL,MongoDB,Redis,GraphQL,MySQL,Linux,Vue.js,CSS,AWS",
+      "posted_time": "6 minutes ago"
+  },
+  {
+      "company_name": "Accenture",
+      "company_image": "https://dummyimage.com/100x100/000/fff",
+      "rating": "4.1",
+      "job_title": "Quality Engineer",
+      "job_type": "QA",
+      "location": "Singapore",
+      "skills": "Microsoft,SAP",
+      "posted_time": "19 minutes ago"
+  },
+  {
+      "company_name": "Schonfeld",
+      "company_image": "https://dummyimage.com/100x100/000/fff",
+      "rating": "3.6",
+      "job_title": "C++ Software Engineer: Real-Time Market Data",
+      "job_type": "Backend",
+      "location": "Singapore",
+      "skills": "play,kdb,CI,C++,Linux,AWS",
+      "posted_time": "20 minutes ago"
+  },
+  {
+    "company_name": "TikTok",
+    "company_image": "https://dummyimage.com/100x100/000/fff",
+    "rating": "3.6",
+    "job_title": "iOS Software Engineer - TikTok Mobile Experience",
+    "job_type": "iOS",
+    "location": "Singapore",
+    "salary": "S$9,985 - S$19,970 / mth",
+    "estimate": "EST",
+    "skills": "Objective C,API,Strategy,MVC,MVVM,VIPER,iOS,Swift",
+    "posted_time": "26 minutes ago"
+  },
+  {
+      "company_name": "Autodesk",
+      "company_image": "https://dummyimage.com/100x100/000/fff",
+      "rating": "4.3",
+      "job_title": "Senior Software Engineer in Test, Desktop SDK",
+      "job_type": "QA",
+      "location": "Singapore",
+      "salary": "S$7,095 - S$11,824 / mth",
+      "estimate": "EST",
+      "skills": "play,Strategy,Analytics,TDD,CI,TestNG,Git,JUnit,SQL,C++,C,Linux,Java",
+      "posted_time": "36 minutes ago"
+  },
+  {
+      "company_name": "GovTech",
+      "company_image": "https://dummyimage.com/100x100/000/fff",
+      "rating": "4",
+      "job_title": "Senior Software Engineer (Experimental Systems and Technology Lab, GovTech)",
+      "job_type": "Fullstack",
+      "location": "Singapore",
+      "salary": "S$9,221 - S$15,487 / mth",
+      "estimate": "EST",
+      "skills": "play,Typescript,React",
+      "posted_time": "41 minutes ago"
+  },
+  {
+      "company_name": "TikTok",
+      "company_image": "https://dummyimage.com/100x100/000/fff",
+      "rating": "3.6",
+      "job_title": "Android Software Engineer, TikTok Mobile Experience",
+      "job_type": "Android",
+      "location": "Singapore",
+      "skills": "Strategy,Android,Kotlin,Linux,Java",
+      "posted_time": "42 minutes ago"
+  }
+]
