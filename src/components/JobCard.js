@@ -19,11 +19,9 @@ import {
 } from "@chakra-ui/react";
 import { FaSearchLocation } from "react-icons/fa";
 
-
-const JobCard = ({ props }) => {
-  const companyInfo = props
+const JobCard = ({ props, selected, setSelected, onClick }) => {
+	const companyInfo = props
   
-
   const displaySkills = function(skills) {
     var parts = skills.split(",");
     const original_length = parts.length
@@ -43,19 +41,16 @@ const JobCard = ({ props }) => {
 
 	return (
 		<Card
+			onClick={() => { setSelected(companyInfo); onClick(companyInfo) }}
+			style={{ border: selected === companyInfo ? '3px solid lightgreen' : 'none'}}
 			maxWidth={"sm"}
 			role='button'
 			_active={{
 				bg: "#dddfe2",
-				transform: "scale(0.98)",
 				borderColor: "#bec3c9",
 			}}
-			_focus={{
-				boxShadow: "outline",
-			}}
-			_hover={{ bg: "#ebedf0" }}
+			_hover={{ cursor: "pointer", transform: "scale(1.04)",  transition: "all 0.3s"}}
 			padding='5'
-			onClick={ }
 		>
 			<HStack>
 				<Box flex={1}>
@@ -91,7 +86,7 @@ const JobCard = ({ props }) => {
 						</Box>
 					</HStack>
 				</Box>
-				<Badge fontSize='1.0em' colorScheme='green' alignSelf='start'>
+				<Badge fontSize='0.8em' colorScheme='green' alignSelf='start'>
 					{companyInfo.job_type}
 				</Badge>
 			</HStack>
